@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    background-color: #495057;
+}
+
+.nav-links li {
+    margin: 5px;
+}
+
+.menu-container img {
+    width: 100px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    background-image: url(/tp_Integrador/img/ba1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+
+.main-text {
+    padding-left: 51vw;
+    padding-right: 9vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.NavLink li:last-child a {
+    color: #0cc449;
+}
+
+.oradores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.innovacion {
+    background-color: rgb(254, 193, 7);
+    border-radius: 5px;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.diseño {
+    background-color: rgb(22, 161, 184);
+    border-radius: 5px;
+    padding: 0 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.negocios {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.liderazgo {
+    background-color:darkblue;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.mujer {
+    background-color:darkviolet;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.pionera {
+    background-color: red;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.honolulu-text {
+    text-align: justify;
+    background-color: #495057;
+    color: white;
+    height: inherit;
+}
+
+u {
+    text-decoration-style: dotted;
+}
+
+.footer-content {
+    background-color: rgb(29, 58, 74);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item a:hover {
+    filter: brightness(0.7);
+}
