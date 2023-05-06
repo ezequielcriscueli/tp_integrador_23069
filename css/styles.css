@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: end;
-    background-image: url("../assets/img/hawaii.jpg");
+    background-image: url("../img/hawaii.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
